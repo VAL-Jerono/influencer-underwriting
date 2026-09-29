@@ -1,0 +1,13 @@
+# Copy to configs/paths.yaml and edit. paths.yaml is git-ignored.
+raw_drive: /content/drive/MyDrive/Influencer brand dataset   # read-only source
+local_raw: /content/influencer_data/raw                      # fast temporary copy
+artifact_root: /content/drive/MyDrive/InfluencerUnderwriting/artifacts
+checkpoint_root: /content/drive/MyDrive/InfluencerUnderwriting/checkpoints
+
+post_info:
+  image_sep: ","                       # VERIFY against the raw_audit sample values
+  positive_labels: ["1", "true", "True"]   # values of the sponsored column meaning "sponsored"
+
+audit:
+  json_sample_size: 1000
+  seed: 42

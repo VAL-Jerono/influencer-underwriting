@@ -1,0 +1,19 @@
+# data and artifacts never go to git
+*.zip
+*.parquet
+*.part
+*.complete
+*.txt.gz
+data/
+artifacts/
+checkpoints/
+influencer_data/
+# local config and secrets
+configs/paths.yaml
+.env
+# python
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
